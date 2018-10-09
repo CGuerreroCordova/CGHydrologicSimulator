@@ -14,6 +14,4 @@ This is an implementacion on C# about a **Hidrologic Simulator** based on Lisflo
 
 Also was nominated for the innovation prize in the **Israel Innovation Awards 2017**.
 
-To see a detailed explanation of this work a pdf report can be found at:
-
-[Thesis Report](https://github.com/CGuerreroCordova/CGHydrologicSimulator/blob/master/doc/CGuerrero-Tesis-HydroSim.pdf)
+To see a detailed explanation of this work a pdf report can be found at: [Thesis Report (spanish)](https://github.com/CGuerreroCordova/CGHydrologicSimulator/blob/master/doc/CGuerrero-Tesis-HydroSim.pdf)
