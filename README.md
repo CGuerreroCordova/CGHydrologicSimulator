@@ -11,8 +11,8 @@ This is an implementacion on C# about a **Hidrologic Simulator** based on Lisflo
 
 ## This work was presented then in
 
-● Nation Congress of Water, Argentina: CONGRESO NACIONAL DEL AGUA – CONAGUA 2013
-● XX Congress on Methods Numeric and Applications ENIEF 2013
+* Nation Congress of Water, Argentina: CONGRESO NACIONAL DEL AGUA – CONAGUA 2013
+* XX Congress on Methods Numeric and Applications ENIEF 2013
 
 Also was nominated for the innovation prize in the **Israel Innovation Awards 2017**.
 
