@@ -1,6 +1,6 @@
-# CGHydrologicSimulator: Hydrologic Simulator to reproduce how water flows on a digital model elevation.
+# CGHydrologicSimulator:
 
-
+Hydrologic Simulator to reproduce how water flows on a digital elevation model (DEM).
 This project correspond with the implementation of thesis work to get title of M.Sc. in Computer Sciences.
 
 ## Description of Thesis work:
