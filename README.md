@@ -7,7 +7,7 @@ Hydrologic Simulator to reproduce how water flows on a digital model elevation.
 
 ## Description of Thesis work:
 
-This is an implementacion on C# about a hidrologic simulator based on Lisflood-FP model following ESA Software-Engineering Standards.
+This is an implementacion on C# about a **Hidrologic Simulator** based on Lisflood-FP model following ESA Software-Engineering Standards.
 
 ## This work was presented then in
 
