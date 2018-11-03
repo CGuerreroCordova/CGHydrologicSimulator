@@ -1,3 +1,107 @@
+
+# Jogging API REST Server
+
+
+1. [Register a new user](#register-a-new-user)
+2. [Get list of users and roles by a manager](#get-list-of-users-and-roles-by-a-manager)
+3. [Get list of users and roles by an admin](#Get-list-of-users-and-roles-by-an-admin)
+4. [](#)
+5. [](#)
+6. [](#)
+7. [](#)
+8. [](#)
+9. [](#)
+10. [](#)
+
+## 
+## Login to Jogging server
+## Post an entry of jogging 
+## Get the list of entries of jogging of an user 
+## Delete an entry of jogging 
+## Get an entry of jogging
+## Modify an entry of jogging
+## Get the list of reports of jogging of an user
+## Get an specific report of jogging
+
+
+
+## Register a new user
+
+  Register an user into Jogging server
+
+* **URL**
+
+  /users
+
+* **Method:**
+
+  `POST`
+
+*  **URL Params**
+
+   **Required:**
+
+   `username=[string]`   
+   `password=[string]`
+
+* **Data Params**
+
+  None
+
+* **Success Response:**
+
+  * **Code:** 201 <br />
+    **Content:**
+    ```json
+    { "Result" :  "User [username] created."}
+    ```       
+
+
+* **Error Response:**
+
+  * **Code:** 400 HTTP BAD REQUEST <br />
+    **Content:**
+     ```json
+     { "error" : "User name [username] not available." }
+     ``` 
+
+* **Sample Call:**
+
+  ```/users?username=newuser&password=newpassword```
+
+## Get list of users and roles by a manager
+
+  Required the requester logged has a Manager role 
+
+* **URL**
+
+  /users
+
+* **Method:**
+
+  `GET`
+
+*  **URL Params**
+
+   None       
+
+* **Data Params**
+
+    None
+  
+ * **Headers Params**
+
+   `key="token", value=[string:token provided]`
+   
+   Token provided with login, with permission of Manager
+
+* **Success Response:**
+
+  * **Code:** 200 OK <br />
+    **Content example:** 
+
+
+
 # CGHydrologicSimulator:
 
 Hydrologic Simulator to reproduce how water flows on a digital elevation model (DEM).
